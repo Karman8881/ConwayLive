@@ -9,7 +9,7 @@ namespace live2.engine
 {
     internal class Controller
     {
-        public static Model model = new Model(64, 64, 10);
+        public Model model = new Model(64, 64, 10);
 
         public System.Collections.ArrayList clean()
         {

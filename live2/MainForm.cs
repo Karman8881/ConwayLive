@@ -10,7 +10,7 @@ namespace live2
     public partial class MainForm : Form
     {
         private Controller controller = new Controller();
-        public static Model model = new (64, 64, 10);
+        public Model model = new (64, 64, 10);
 
         public MainForm()
         {

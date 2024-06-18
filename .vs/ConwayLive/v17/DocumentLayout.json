@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|c:\\users\\admin\\desktop\\internship\\programs\\\u044D\u044D\u044D\u0445\\conwaylive\\live2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|solutionrelative:live2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|c:\\users\\admin\\desktop\\internship\\programs\\\u044D\u044D\u044D\u0445\\conwaylive\\live2\\engine\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|solutionrelative:live2\\engine\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|solutionrelative:live2\\engine\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|solutionrelative:live2\\engine\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC9A9AC3-FBE4-4283-9AC2-B14F3178CDB9}|live2\\live.csproj|C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "live2\\MainForm.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\MainForm.cs",
               "RelativeToolTip": "live2\\MainForm.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAqwAwAAAA1AAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAiwAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T04:32:33.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\Model.cs",
               "RelativeDocumentMoniker": "live2\\engine\\Model.cs",
@@ -76,18 +76,17 @@
               "RelativeToolTip": "live2\\engine\\Cell.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T10:35:39.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T10:35:39.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\Controller.cs",
               "RelativeDocumentMoniker": "live2\\engine\\Controller.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\engine\\Controller.cs",
               "RelativeToolTip": "live2\\engine\\Controller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T10:35:09.907Z",
               "EditorCaption": ""
@@ -101,8 +100,7 @@
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Internship\\programs\\\u044D\u044D\u044D\u0445\\ConwayLive\\live2\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)]",
               "RelativeToolTip": "live2\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T10:33:09.11Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)]"
+              "WhenOpened": "2024-06-17T10:33:09.11Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "live2\\MainForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T10:30:12.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T10:30:12.861Z"
             }
           ]
         }
