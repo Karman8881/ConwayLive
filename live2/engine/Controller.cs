@@ -9,7 +9,7 @@ namespace live2.engine
 {
     internal class Controller
     {
-        public Model model = new Model(64, 64, 10);
+        public static Model model = new Model(64, 64, 10);
 
         public System.Collections.ArrayList clean()
         {
@@ -53,7 +53,7 @@ namespace live2.engine
             {
                 for (int j = 0; j < model.width; j++)
                 {
-                    int n = 0;
+                    /*int n = 0;
                     n = n + model.a[--i, --j];
                     n = n + model.a[--i, j];
                     n = n + model.a[--i, ++j];
@@ -61,17 +61,20 @@ namespace live2.engine
                     n = n + model.a[i, ++j];
                     n = n + model.a[++i, --j];
                     n = n + model.a[++i, j];
-                    n = n + model.a[++i, ++j];
+                    n = n + model.a[++i, ++j];*/
+                    
+                    
+
                     if (model.a[i, j] == 0)
                     {
-                        if (n == 3)
+                        if (prev(model.a[i, j]) == 3)
                         {
                             model.b[i, j] = 1;
                         }
                     }
                     else
                     {
-                        if (n == 3 || n == 2)
+                        if (next(model.a[i, j]) == 3 || next(model.a[i, j]) == 2)
                         {
                             model.b[i, j] = 1;
                         }
@@ -80,10 +83,25 @@ namespace live2.engine
                 }
             }
             model.a = model.b;
-           
+            Null();
             return getCells();
         }
-        
+        private int prev(int v)
+        {
+            return v == 0 ? 63 : v - 1;
+        }
+        private int next(int f)
+        {
+            return f == 0 ? 63 : f + 1;
+        }
+        private static void Null()
+        {
+            for (int i = 0; i < model.width; i++)
+                for (int j = 0; j < model.height; j++)
+                {
+                    model.b[i, j] = 0;
+                }
+        }
     }
 }
 

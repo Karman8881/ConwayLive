@@ -10,6 +10,7 @@ namespace live2
     public partial class MainForm : Form
     {
         private Controller controller = new Controller();
+        public static Model model = new (64, 64, 10);
 
         public MainForm()
         {
@@ -123,21 +124,7 @@ namespace live2
         {
             this.draw(controller.step());
         }
-        private static void Prev()
-        {
+        
 
-        }
-        private static void Next()
-        {
-
-        }
-        private static void Null()
-        {
-            for (int i = 0; i < model.width; i++)
-                for (int j = 0; j < model.height; j++)
-                {
-                    model.b[i, j] = 0;
-                }
-        }
     }
 }
