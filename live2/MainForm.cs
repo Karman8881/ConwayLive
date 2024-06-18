@@ -1,6 +1,7 @@
 using live2.engine;
 using System.Diagnostics;
 using System.Drawing.Drawing2D;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms.VisualStyles;
 
@@ -121,6 +122,22 @@ namespace live2
         private void TimerTick(object sender, EventArgs e)
         {
             this.draw(controller.step());
+        }
+        private static void Prev()
+        {
+
+        }
+        private static void Next()
+        {
+
+        }
+        private static void Null()
+        {
+            for (int i = 0; i < model.width; i++)
+                for (int j = 0; j < model.height; j++)
+                {
+                    model.b[i, j] = 0;
+                }
         }
     }
 }
