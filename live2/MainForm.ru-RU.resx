@@ -123,14 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 5</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonHelp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>510, 7</value>
   </data>
   <data name="buttonHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 22</value>
+    <value>94, 29</value>
   </data>
   <data name="buttonHelp.Text" xml:space="preserve">
     <value>Help</value>
@@ -139,28 +135,64 @@
     <value>Bottom, Right</value>
   </data>
   <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 4</value>
+    <value>637, 5</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="buttonStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 7</value>
+  </data>
+  <data name="buttonStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 11</value>
+  </data>
+  <data name="field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
   </data>
   <data name="buttonRandom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>358, 5</value>
+    <value>409, 7</value>
+  </data>
+  <data name="buttonRandom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="buttonClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 7</value>
+  </data>
+  <data name="buttonClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 7</value>
+  </data>
+  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 644</value>
+    <value>3, 859</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>642, 29</value>
+    <value>734, 39</value>
   </data>
   <data name="canvas.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 0</value>
   </data>
-  <data name="canvas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
   <data name="canvas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>641, 641</value>
+    <value>733, 855</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>645, 673</value>
+    <value>737, 897</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

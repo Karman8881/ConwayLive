@@ -10,6 +10,7 @@ namespace live2.engine
     internal class Controller
     {
         public Model model = new Model(64, 64, 10);
+        
 
         public System.Collections.ArrayList clean()
         {
@@ -48,41 +49,30 @@ namespace live2.engine
         }
         public System.Collections.ArrayList step()
         {
-
-            for (int i = 0; i < model.height; i++)
+            for (int col = 0; col < model.height; col++)
             {
-                for (int j = 0; j < model.width; j++)
+                for (int row = 0; row < model.width; row++)
                 {
-                    /*int n = 0;
-                    n = n + model.a[--i, --j];
-                    n = n + model.a[--i, j];
-                    n = n + model.a[--i, ++j];
-                    n = n + model.a[i, --j];
-                    n = n + model.a[i, ++j];
-                    n = n + model.a[++i, --j];
-                    n = n + model.a[++i, j];
-                    n = n + model.a[++i, ++j];*/
-                    
-                    
+                    int n =
+                      model.a[prev(col), prev(row)]
+                    + model.a[prev(col), row]
+                    + model.a[prev(col), next(row)]
+                    + model.a[col, prev(row)]
+                    + model.a[col, next(row)]
+                    + model.a[next(col), prev(row)]
+                    + model.a[next(col), row]
+                    + model.a[next(col), next(row)];
 
-                    if (model.a[i, j] == 0)
-                    {
-                        if (prev(model.a[i, j]) == 3)
-                        {
-                            model.b[i, j] = 1;
-                        }
-                    }
+                    if (model.a[col, row] == 1)
+                        model.b[col, row] = (n == 2 || n == 3) ? 1 : 0;
                     else
-                    {
-                        if (next(model.a[i, j]) == 3 || next(model.a[i, j]) == 2)
-                        {
-                            model.b[i, j] = 1;
-                        }
-                    }
-
+                        model.b[col, row] = (n == 3) ? 1 : 0;
                 }
             }
+            
             model.a = model.b;
+            
+            model.b = new int[model.height, model.width];
             Null();
             return getCells();
         }
@@ -92,9 +82,9 @@ namespace live2.engine
         }
         private int next(int f)
         {
-            return f == 0 ? 63 : f + 1;
+            return f == 63 ? 0 : f + 1;
         }
-        private static void Null()
+        private void Null()
         {
             for (int i = 0; i < model.width; i++)
                 for (int j = 0; j < model.height; j++)
@@ -102,6 +92,15 @@ namespace live2.engine
                     model.b[i, j] = 0;
                 }
         }
+        public System.Collections.ArrayList Invers(int x, int y)
+        {
+            int col = x / model.sqaureSize;
+            int row = y / model.sqaureSize;
+            model.a[col, row] = model.a[col, row] == 1 ? 0 : 1;
+            return getCells();
+        }
+
+        
     }
 }
 

@@ -66,6 +66,7 @@
             buttonHelp.Name = "buttonHelp";
             buttonHelp.UseVisualStyleBackColor = true;
             buttonHelp.Click += Help;
+            buttonHelp.MouseClick += picturebox;
             // 
             // buttonClose
             // 
@@ -117,7 +118,7 @@
             // 
             // liveTimer
             // 
-            liveTimer.Interval = 500;
+            liveTimer.Interval = 300;
             liveTimer.Tick += TimerTick;
             // 
             // canvas
@@ -127,6 +128,7 @@
             canvas.Name = "canvas";
             canvas.TabStop = false;
             canvas.Click += pictureBox1_Click;
+            canvas.MouseClick += canvas_MouseClick;
             // 
             // MainForm
             // 

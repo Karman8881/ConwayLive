@@ -10,7 +10,7 @@ namespace live2
     public partial class MainForm : Form
     {
         private Controller controller = new Controller();
-        public Model model = new (64, 64, 10);
+
 
         public MainForm()
         {
@@ -58,7 +58,7 @@ namespace live2
             int size = controller.model.sqaureSize + 1;
             foreach (Cell c in cells)
             {
-                g.FillRectangle(Brushes.Black, c.col * cellSize, c.row * cellSize,size ,size);
+                g.FillRectangle(Brushes.Black, c.col * cellSize, c.row * cellSize, size, size);
             }
         }
 
@@ -124,7 +124,15 @@ namespace live2
         {
             this.draw(controller.step());
         }
-        
 
+        private void picturebox(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void canvas_MouseClick(object sender, MouseEventArgs e)
+        {
+            draw(controller.Invers(e.X, e.Y));
+        }
     }
 }
