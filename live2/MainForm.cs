@@ -134,5 +134,10 @@ namespace live2
         {
             draw(controller.Invers(e.X, e.Y));
         }
+
+        private void ß(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

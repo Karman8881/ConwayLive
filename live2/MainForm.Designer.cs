@@ -118,7 +118,6 @@
             // 
             // liveTimer
             // 
-            liveTimer.Interval = 300;
             liveTimer.Tick += TimerTick;
             // 
             // canvas
@@ -141,6 +140,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainForm";
+            Load += Я;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)canvas).EndInit();
